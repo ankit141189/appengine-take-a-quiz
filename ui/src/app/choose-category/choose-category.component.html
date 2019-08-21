@@ -1,0 +1,9 @@
+<div class="category-box">
+  <div *ngFor="let c of categories | async" class="category">
+    <button
+      (click)="selectQuiz(c.id)"
+      mat-raised-button
+      color="primary"
+      [disabled]="!c.quiz_count">{{c.name}}</button>
+  </div>
+</div>

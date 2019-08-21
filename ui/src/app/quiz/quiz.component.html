@@ -1,0 +1,8 @@
+<mat-toolbar *ngIf="quiz as q">
+  <span>Quiz name: {{q.title}}</span>
+  <span class="spacer"></span>
+  <span class="score" *ngIf="takeQuiz.started">Score: {{takeQuiz.correctAnswers}}/{{takeQuiz.totalAnswers}} </span>
+  <button mat-raised-button (click)="startAgain()">START AGAIN</button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

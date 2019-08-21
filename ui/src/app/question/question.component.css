@@ -1,0 +1,32 @@
+.choices {
+  display: flex;
+  flex-direction: column;
+}
+
+.choice {
+  margin: 10px;
+}
+
+.question-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.question-card {
+  width: 500px;
+  margin: 30px;
+}
+
+.correct-answer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.success {
+  background-color: green;
+}
+
+.fail {
+  background-color: red;
+}

@@ -1,0 +1,12 @@
+.category-box {
+  display: flex;
+  height: 100%;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category {
+  padding: 10px;
+}

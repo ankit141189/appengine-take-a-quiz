@@ -1,0 +1,7 @@
+.spacer {
+  flex-grow: 1;
+}
+
+.score {
+  margin-right: 30px;
+}

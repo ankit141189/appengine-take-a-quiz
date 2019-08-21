@@ -1,0 +1,18 @@
+runtime: python37
+
+handlers:
+
+- url: /(choose-category|create-quiz)?
+  static_files: static/index.html
+  upload: static/index\.html
+
+- url: /favicon\.ico
+  static_files: static/favicon.ico
+  upload: static/favicon\.ico
+
+- url: /(.*\.(html|js|js\.map))$
+  static_files: static/\1
+  upload: static/.*\.(html|js|js\.map)$
+
+- url: /api/.*
+  script: main.app

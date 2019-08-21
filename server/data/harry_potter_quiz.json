@@ -1,0 +1,24 @@
+{
+  "id": "harry-potter-quiz",
+  "title": "Harry Potter Quiz",
+  "difficulty": "medium",
+  "category": 11,
+  "questions": [
+    {
+      "id": "1",
+      "text": "Who killed Album Dumbledore?",
+      "type": "multiple",
+      "answer_choices": [
+        {
+          "id": "1",
+          "text": "Harry Potter"
+        }, {
+          "id": "2",
+          "text": "Severus Snape",
+          "is_correct": true
+        }
+      ]
+    }
+  ]
+
+}

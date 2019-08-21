@@ -1,0 +1,5 @@
+env/
+static/
+send_requests.sh
+*.pyc
+.idea/

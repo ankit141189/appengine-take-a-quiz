@@ -1,0 +1,4 @@
+<mat-toolbar *ngIf="category | async as c" color="accent">
+  <span>Category: {{c.name}}</span>
+</mat-toolbar>
+<router-outlet></router-outlet>

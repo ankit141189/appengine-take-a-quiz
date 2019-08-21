@@ -1,0 +1,228 @@
+{
+  "questions": [
+    {
+      "type": "multiple",
+      "text": "Who starred in the film 1973 movie &quot;Enter The Dragon&quot;?",
+      "answer_choices": [
+        {
+          "is_correct": false,
+          "text": "Jackie Chan",
+          "id": 1
+        },
+        {
+          "is_correct": true,
+          "text": "Bruce Lee",
+          "id": 2
+        },
+        {
+          "is_correct": false,
+          "text": "Jet Li",
+          "id": 3
+        },
+        {
+          "is_correct": false,
+          "text": " Yun-Fat Chow",
+          "id": 4
+        }
+      ],
+      "id": "0"
+    },
+    {
+      "type": "boolean",
+      "text": "The film &quot;2001: A Space Odyssey&quot; was released on December 31st, 2000.",
+      "answer_choices": [
+        {
+          "is_correct": true,
+          "text": "False",
+          "id": 1
+        },
+        {
+          "is_correct": false,
+          "text": "True",
+          "id": 2
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "type": "multiple",
+      "text": "What was the first James Bond film?",
+      "answer_choices": [
+        {
+          "is_correct": false,
+          "text": "From Russia With Love",
+          "id": 1
+        },
+        {
+          "is_correct": true,
+          "text": "Dr. No",
+          "id": 2
+        },
+        {
+          "is_correct": false,
+          "text": "Thunderball",
+          "id": 3
+        },
+        {
+          "is_correct": false,
+          "text": "Goldfinger",
+          "id": 4
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "type": "multiple",
+      "text": "Which of these movies did Jeff Bridges not star in?",
+      "answer_choices": [
+        {
+          "is_correct": false,
+          "text": "The Giver",
+          "id": 1
+        },
+        {
+          "is_correct": false,
+          "text": "True Grit",
+          "id": 2
+        },
+        {
+          "is_correct": false,
+          "text": "Tron: Legacy",
+          "id": 3
+        },
+        {
+          "is_correct": true,
+          "text": "The Hateful Eight",
+          "id": 4
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "type": "boolean",
+      "text": "Shaquille O&#039;Neal appeared in the 1997 film &quot;Space Jam&quot;.",
+      "answer_choices": [
+        {
+          "is_correct": true,
+          "text": "False",
+          "id": 1
+        },
+        {
+          "is_correct": false,
+          "text": "True",
+          "id": 2
+        }
+      ],
+      "id": "4"
+    },
+    {
+      "type": "boolean",
+      "text": "Samuel L. Jackson had the words, &#039;Bad Motherf*cker&#039; in-scripted on his lightsaber during the filming of Star Wars.",
+      "answer_choices": [
+        {
+          "is_correct": false,
+          "text": "False",
+          "id": 1
+        },
+        {
+          "is_correct": true,
+          "text": "True",
+          "id": 2
+        }
+      ],
+      "id": "5"
+    },
+    {
+      "type": "multiple",
+      "text": "In the movie &quot;Cast Away&quot; the main protagonist&#039;s best friend while on the island is named",
+      "answer_choices": [
+        {
+          "is_correct": false,
+          "text": "Jackson",
+          "id": 1
+        },
+        {
+          "is_correct": false,
+          "text": "Carson",
+          "id": 2
+        },
+        {
+          "is_correct": false,
+          "text": "Willy",
+          "id": 3
+        },
+        {
+          "is_correct": true,
+          "text": "Wilson",
+          "id": 4
+        }
+      ],
+      "id": "6"
+    },
+    {
+      "type": "boolean",
+      "text": "In the original Star Wars trilogy, David Prowse was the actor who physically portrayed Darth Vader.",
+      "answer_choices": [
+        {
+          "is_correct": true,
+          "text": "True",
+          "id": 1
+        },
+        {
+          "is_correct": false,
+          "text": "False",
+          "id": 2
+        }
+      ],
+      "id": "7"
+    },
+    {
+      "type": "boolean",
+      "text": "&quot;Minions&quot; was released on the June 10th, 2015.",
+      "answer_choices": [
+        {
+          "is_correct": true,
+          "text": "False",
+          "id": 1
+        },
+        {
+          "is_correct": false,
+          "text": "True",
+          "id": 2
+        }
+      ],
+      "id": "8"
+    },
+    {
+      "type": "multiple",
+      "text": "For the film &quot;Raiders of The Lost Ark&quot;, what was Harrison Ford sick with during the filming of the Cairo chase?",
+      "answer_choices": [
+        {
+          "is_correct": false,
+          "text": "Acid Reflux ",
+          "id": 1
+        },
+        {
+          "is_correct": true,
+          "text": "Dysentery",
+          "id": 2
+        },
+        {
+          "is_correct": false,
+          "text": "Constipation",
+          "id": 3
+        },
+        {
+          "is_correct": false,
+          "text": "Anemia",
+          "id": 4
+        }
+      ],
+      "id": "9"
+    }
+  ],
+  "difficulty": "easy",
+  "category": 11,
+  "title": "Simple movies quiz",
+  "id": "simple-movies-quiz"
+}

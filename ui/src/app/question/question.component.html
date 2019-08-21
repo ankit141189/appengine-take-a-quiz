@@ -1,0 +1,19 @@
+<div class="question-container">
+  <mat-card *ngIf="question as q" class="question-card">
+    <mat-card-header>
+      <mat-card-title>{{q.text}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-radio-group class="choices" [formControl]="choiceFormControl">
+        <mat-radio-button class="choice" *ngFor="let a of q.answer_choices" [disabled]="takeQuiz.submittedAnswerId" [value]="a.id">{{a.text}}</mat-radio-button>
+      </mat-radio-group>
+      <div *ngIf="takeQuiz.correctAnswer" class="correct-answer">
+        CORRECT ANSWER: {{takeQuiz.correctAnswer.text}}
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button *ngIf="!takeQuiz.submittedAnswerId" mat-button color="primary" (click)="submit()" [disabled]="invalid()">SUBMIT</button>
+      <button *ngIf="takeQuiz.nextQ" mat-button color="primary" (click)="next()">NEXT QUESTION</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

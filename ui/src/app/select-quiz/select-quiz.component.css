@@ -1,0 +1,7 @@
+.quiz-container {
+  display: flex;
+}
+
+.quiz-card {
+  margin: 20px;
+}

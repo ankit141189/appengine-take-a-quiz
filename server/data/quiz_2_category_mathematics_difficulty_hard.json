@@ -1,0 +1,248 @@
+{
+  "category": 19,
+  "questions": [
+    {
+      "type": "multiple",
+      "text": "What is the derivative of Acceleration with respect to time?",
+      "answer_choices": [
+        {
+          "text": "Shift",
+          "id": 1,
+          "is_correct": false
+        },
+        {
+          "text": "Jerk",
+          "id": 2,
+          "is_correct": true
+        },
+        {
+          "text": "Bump",
+          "id": 3,
+          "is_correct": false
+        },
+        {
+          "text": "Slide",
+          "id": 4,
+          "is_correct": false
+        }
+      ],
+      "id": "0"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the approximate value of mathematical constant e?",
+      "answer_choices": [
+        {
+          "text": "3.14",
+          "id": 1,
+          "is_correct": false
+        },
+        {
+          "text": "1.62",
+          "id": 2,
+          "is_correct": false
+        },
+        {
+          "text": "1.41",
+          "id": 3,
+          "is_correct": false
+        },
+        {
+          "text": "2.72",
+          "id": 4,
+          "is_correct": true
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "type": "multiple",
+      "text": "How many zeptometres are inside one femtometre?",
+      "answer_choices": [
+        {
+          "text": "1,000,000",
+          "id": 1,
+          "is_correct": true
+        },
+        {
+          "text": "10",
+          "id": 2,
+          "is_correct": false
+        },
+        {
+          "text": "1000",
+          "id": 3,
+          "is_correct": false
+        },
+        {
+          "text": "1,000,000,000",
+          "id": 4,
+          "is_correct": false
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "type": "boolean",
+      "text": "The binary number &quot;101001101&quot; is equivalent to the Decimal number &quot;334&quot;",
+      "answer_choices": [
+        {
+          "text": "True",
+          "id": 1,
+          "is_correct": false
+        },
+        {
+          "text": "False",
+          "id": 2,
+          "is_correct": true
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "type": "boolean",
+      "text": "If you could fold a piece of paper in half 50 times, its&#039; thickness will be 3/4th the distance from the Earth to the Sun.",
+      "answer_choices": [
+        {
+          "text": "False",
+          "id": 1,
+          "is_correct": false
+        },
+        {
+          "text": "True",
+          "id": 2,
+          "is_correct": true
+        }
+      ],
+      "id": "4"
+    },
+    {
+      "type": "multiple",
+      "text": "The decimal number 31 in hexadecimal would be what?",
+      "answer_choices": [
+        {
+          "text": "3D",
+          "id": 1,
+          "is_correct": false
+        },
+        {
+          "text": "1B",
+          "id": 2,
+          "is_correct": false
+        },
+        {
+          "text": "2E",
+          "id": 3,
+          "is_correct": false
+        },
+        {
+          "text": "1F",
+          "id": 4,
+          "is_correct": true
+        }
+      ],
+      "id": "5"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the 100th digit of Pi?",
+      "answer_choices": [
+        {
+          "text": "9",
+          "id": 1,
+          "is_correct": true
+        },
+        {
+          "text": "7",
+          "id": 2,
+          "is_correct": false
+        },
+        {
+          "text": "4",
+          "id": 3,
+          "is_correct": false
+        },
+        {
+          "text": "2",
+          "id": 4,
+          "is_correct": false
+        }
+      ],
+      "id": "6"
+    },
+    {
+      "type": "multiple",
+      "text": "What is the plane curve proposed by Descartes to challenge Fermat&#039;s extremum-finding techniques called?",
+      "answer_choices": [
+        {
+          "text": "Elliptic Paraboloid of Descartes",
+          "id": 1,
+          "is_correct": false
+        },
+        {
+          "text": "Descarte&#039;s Helicoid",
+          "id": 2,
+          "is_correct": false
+        },
+        {
+          "text": "Cartesian Coordinates",
+          "id": 3,
+          "is_correct": false
+        },
+        {
+          "text": "Folium of Descartes",
+          "id": 4,
+          "is_correct": true
+        }
+      ],
+      "id": "7"
+    },
+    {
+      "type": "boolean",
+      "text": "In Topology, the complement of an open set is a closed set.",
+      "answer_choices": [
+        {
+          "text": "False",
+          "id": 1,
+          "is_correct": false
+        },
+        {
+          "text": "True",
+          "id": 2,
+          "is_correct": true
+        }
+      ],
+      "id": "8"
+    },
+    {
+      "type": "multiple",
+      "text": "The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
+      "answer_choices": [
+        {
+          "text": "Galois Theory",
+          "id": 1,
+          "is_correct": true
+        },
+        {
+          "text": "Abelian Integration",
+          "id": 2,
+          "is_correct": false
+        },
+        {
+          "text": "Galois&#039; Method for PDE&#039;s ",
+          "id": 3,
+          "is_correct": false
+        },
+        {
+          "text": "Galois&#039; Continued Fractions",
+          "id": 4,
+          "is_correct": false
+        }
+      ],
+      "id": "9"
+    }
+  ],
+  "difficulty": "hard",
+  "title": "Cool mathematics quiz",
+  "id": "ankitgu-mathematics-quiz-1"
+}
