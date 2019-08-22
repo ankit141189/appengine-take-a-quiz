@@ -2,7 +2,7 @@ runtime: python37
 
 handlers:
 
-- url: /(choose-category|create-quiz)?
+- url: /
   static_files: static/index.html
   upload: static/index\.html
 
@@ -15,4 +15,8 @@ handlers:
   upload: static/.*\.(html|js|js\.map)$
 
 - url: /api/.*
-  script: main.app
+  script: auto
+
+- url: /.*
+  static_files: static/index.html
+  upload: static/index\.html

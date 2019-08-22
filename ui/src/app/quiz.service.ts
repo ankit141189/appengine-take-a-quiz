@@ -34,7 +34,7 @@ export type QuestionScores = Map<string, number>
 
 export type SubsmitAnswerResponseCode = 'CORRECT'| 'INCORRECT'|'ALREADY_ANSWERED'
 
-const API_BASE_URL = "http://localhost:5000/api/quizes"
+const API_BASE_URL = "/api/quizes"
 const CREDENTIALS_OPTIONS =  {
   headers: {
     'Access-Control-Allow-Credentials': 'true',

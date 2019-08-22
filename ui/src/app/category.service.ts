@@ -8,7 +8,7 @@ export interface Category {
   id: string
   quiz_count: number
 }
-const URL = 'http://localhost:5000/api/categories'
+const URL = '/api/categories'
 @Injectable({
   providedIn: 'root'
 })
